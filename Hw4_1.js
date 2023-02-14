@@ -1,7 +1,6 @@
 function getPasswordChecker(password) {
     return function checkPass(inputUserPass) {
-            let boolean = (inputUserPass === password);
-            return boolean
+            return inputUserPass === password;
         
     }
 }
